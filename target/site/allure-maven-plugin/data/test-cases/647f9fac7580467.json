@@ -1,0 +1,62 @@
+{
+  "uid" : "647f9fac7580467",
+  "name" : "Проверка успешной регистрации",
+  "fullName" : "ru.practicum.tests.RegisterTest.registrationTest",
+  "historyId" : "375a5d0329f28562405efa4983ef71af",
+  "time" : {
+    "start" : 1694268103226,
+    "stop" : 1694268107222,
+    "duration" : 3996
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.practicum.tests.RegisterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "Регистрация"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "27496@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Registration"
+  }, {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "647f9fac7580467.json",
+  "parameterValues" : [ ]
+}

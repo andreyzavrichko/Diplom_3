@@ -1,0 +1,62 @@
+{
+  "uid" : "d691fc5f6a52d077",
+  "name" : "Авторизация пользователя - форма регистрации",
+  "fullName" : "ru.practicum.tests.AuthTest.authRegistrationFormButtonTest",
+  "historyId" : "1b16c19c541db2af56c0354063ec178",
+  "time" : {
+    "start" : 1694268076895,
+    "stop" : 1694268080860,
+    "duration" : 3965
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.practicum.tests.AuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authRegistrationFormButtonTest"
+  }, {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "27496@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Auth"
+  }, {
+    "name" : "feature",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d691fc5f6a52d077.json",
+  "parameterValues" : [ ]
+}
