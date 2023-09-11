@@ -23,7 +23,7 @@ public class ProfileTest extends TestBase {
         mainPage.Auth("andrey@yandex.ru", "password");
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
         profilePage.clickExitButton();
         profilePage.waitVisibleAuthText();
         profilePage.shouldAuthText("Вход");
@@ -41,7 +41,7 @@ public class ProfileTest extends TestBase {
         mainPage.Auth("andrey@yandex.ru", "password");
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
         profilePage.clickConstructorButton();
         profilePage.shouldBurgerTitle("Соберите бургер");
     }
@@ -58,7 +58,7 @@ public class ProfileTest extends TestBase {
         mainPage.Auth("andrey@yandex.ru", "password");
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
         profilePage.clickLogo();
         profilePage.shouldBurgerTitle("Соберите бургер");
     }

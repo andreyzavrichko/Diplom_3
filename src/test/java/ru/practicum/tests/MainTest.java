@@ -18,7 +18,7 @@ public class MainTest extends TestBase {
     public void souseTabTest() {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickSouseTab();
-        mainPage.shouldSouseTab("Соусы");
+        mainPage.shouldSouseTab();
     }
 
     @Test
@@ -30,7 +30,7 @@ public class MainTest extends TestBase {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickSouseTab();
         mainPage.clickBunTab();
-        mainPage.shouldBunText("Булки");
+        mainPage.shouldBunTab();
     }
 
     @Test
@@ -41,6 +41,6 @@ public class MainTest extends TestBase {
     public void fillingTabTest() {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickFillingTab();
-        mainPage.shouldFillingTab("Начинки");
+        mainPage.shouldFillingTab();
     }
 }

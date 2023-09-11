@@ -3,6 +3,7 @@ package ru.practicum.pages;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,8 +21,11 @@ public class MainPage {
     private final By forgotPassButton = By.xpath("//a[@href='/forgot-password']");
     private final By profileText = By.xpath("//nav[@class='Account_nav__Lgali']//p[1]");
     private final By bunTab = By.xpath("//span[text()='Булки']");
+    private final By bunText = By.xpath("//div[span[text()='Булки']]");
     private final By souseTab = By.xpath("//span[text()='Соусы']");
+    private final By souseText = By.xpath("//div[span[text()='Соусы']]");
     private final By fillingTab = By.xpath("//span[text()='Начинки']");
+    private final By fillingText = By.xpath("//div[span[text()='Начинки']]");
 
     //конструктор класса
     public MainPage(WebDriver driver) {
@@ -74,23 +78,20 @@ public class MainPage {
         driver.findElement(loginButton).click();
     }
 
-    public void shouldProfileText(String value) {
-        Assert.assertEquals("Текст не совпадает", value, driver.findElement(profileText).getText());
+    public void shouldProfileText() {
+        Assert.assertEquals("Текст не совпадает", "В этом разделе вы можете изменить свои персональные данные", driver.findElement(profileText).getText());
     }
 
-    public void shouldBunText(String value) {
-        driver.findElement(bunTab).isDisplayed();
-        Assert.assertEquals("Текст не совпадает", value, driver.findElement(bunTab).getText());
+    public void shouldBunTab() {
+        Assert.assertTrue(driver.findElement(bunText).getAttribute("class").contains("current"));
     }
 
-    public void shouldSouseTab(String value) {
-        driver.findElement(souseTab).isDisplayed();
-        Assert.assertEquals("Текст не совпадает", value, driver.findElement(souseTab).getText());
+    public void shouldSouseTab() {
+        Assert.assertTrue(driver.findElement(souseText).getAttribute("class").contains("current"));
     }
 
-    public void shouldFillingTab(String value) {
-        driver.findElement(fillingTab).isDisplayed();
-        Assert.assertEquals("Текст не совпадает", value, driver.findElement(fillingTab).getText());
+    public void shouldFillingTab() {
+        Assert.assertTrue(driver.findElement(fillingText).getAttribute("class").contains("current"));
     }
 
     public void waitVisibleProfileText() {

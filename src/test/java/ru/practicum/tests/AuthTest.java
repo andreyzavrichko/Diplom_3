@@ -24,7 +24,7 @@ public class AuthTest extends TestBase {
         mainPage.clickLoginButton();
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
     }
 
     @Test
@@ -40,7 +40,7 @@ public class AuthTest extends TestBase {
         mainPage.clickLoginButton();
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
     }
 
     @Test
@@ -59,7 +59,7 @@ public class AuthTest extends TestBase {
         mainPage.clickLoginButton();
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
     }
 
     @Test
@@ -77,7 +77,7 @@ public class AuthTest extends TestBase {
         mainPage.clickLoginButton();
         mainPage.clickPersonalAreaButton();
         mainPage.waitVisibleProfileText();
-        mainPage.shouldProfileText("В этом разделе вы можете изменить свои персональные данные");
+        mainPage.shouldProfileText();
     }
 
 
