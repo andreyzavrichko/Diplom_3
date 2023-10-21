@@ -1,0 +1,62 @@
+{
+  "uid" : "b4f64411c09e7ec5",
+  "name" : "Проверка перехода на таб Соусы",
+  "fullName" : "ru.practicum.tests.MainTest.souseTabTest",
+  "historyId" : "e88ba77c514d33b273aa959cf86b150a",
+  "time" : {
+    "start" : 1694268086733,
+    "stop" : 1694268089644,
+    "duration" : 2911
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.practicum.tests.MainTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "souseTabTest"
+  }, {
+    "name" : "suite",
+    "value" : "Конструктор"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "27496@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Main"
+  }, {
+    "name" : "story",
+    "value" : "Main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4f64411c09e7ec5.json",
+  "parameterValues" : [ ]
+}

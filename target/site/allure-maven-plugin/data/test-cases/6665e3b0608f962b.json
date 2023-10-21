@@ -1,0 +1,62 @@
+{
+  "uid" : "6665e3b0608f962b",
+  "name" : "Авторизация пользователя - кнопка на главном экране",
+  "fullName" : "ru.practicum.tests.AuthTest.authMainButtonTest",
+  "historyId" : "d848f1fc636dbe9dc5540449f82f2575",
+  "time" : {
+    "start" : 1694268068359,
+    "stop" : 1694268072749,
+    "duration" : 4390
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.practicum.tests.AuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authMainButtonTest"
+  }, {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "27496@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Auth"
+  }, {
+    "name" : "feature",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6665e3b0608f962b.json",
+  "parameterValues" : [ ]
+}

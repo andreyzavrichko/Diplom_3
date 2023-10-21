@@ -1,0 +1,121 @@
+[ {
+  "uid" : "647f9fac7580467",
+  "name" : "Проверка успешной регистрации",
+  "time" : {
+    "start" : 1694268103226,
+    "stop" : 1694268107222,
+    "duration" : 3996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d691fc5f6a52d077",
+  "name" : "Авторизация пользователя - форма регистрации",
+  "time" : {
+    "start" : 1694268076895,
+    "stop" : 1694268080860,
+    "duration" : 3965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba1121286fd87633",
+  "name" : "Выход из профиля",
+  "time" : {
+    "start" : 1694268094097,
+    "stop" : 1694268098885,
+    "duration" : 4788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aabf26f28be30765",
+  "name" : "Проверка перехода из профиля в конструктор через логотип",
+  "time" : {
+    "start" : 1694268098888,
+    "stop" : 1694268103166,
+    "duration" : 4278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eea9793552752913",
+  "name" : "Проверка регистрации с некорректным паролем",
+  "time" : {
+    "start" : 1694268107225,
+    "stop" : 1694268110665,
+    "duration" : 3440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b1b232c257fdde4",
+  "name" : "Авторизация пользователя - успешная",
+  "time" : {
+    "start" : 1694268072754,
+    "stop" : 1694268076892,
+    "duration" : 4138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ef1740750c2a9a1",
+  "name" : "Проверка перехода на таб Булки",
+  "time" : {
+    "start" : 1694268083811,
+    "stop" : 1694268086730,
+    "duration" : 2919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44095dff15e05b70",
+  "name" : "Проверка перехода на таб Начинки",
+  "time" : {
+    "start" : 1694268080864,
+    "stop" : 1694268083808,
+    "duration" : 2944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4f64411c09e7ec5",
+  "name" : "Проверка перехода на таб Соусы",
+  "time" : {
+    "start" : 1694268086733,
+    "stop" : 1694268089644,
+    "duration" : 2911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f1c975e013f8e5",
+  "name" : "Проверка перехода из профиля в конструктор",
+  "time" : {
+    "start" : 1694268089648,
+    "stop" : 1694268094094,
+    "duration" : 4446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6665e3b0608f962b",
+  "name" : "Авторизация пользователя - кнопка на главном экране",
+  "time" : {
+    "start" : 1694268068359,
+    "stop" : 1694268072749,
+    "duration" : 4390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dd3b5116a5ea2fd",
+  "name" : "Авторизация пользователя - форма восстановления пароля",
+  "time" : {
+    "start" : 1694268062826,
+    "stop" : 1694268068256,
+    "duration" : 5430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

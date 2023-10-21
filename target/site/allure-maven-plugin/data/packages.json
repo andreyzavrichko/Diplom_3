@@ -1,0 +1,165 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.practicum.tests",
+    "children" : [ {
+      "name" : "authForgotFormButtonTest",
+      "uid" : "9dd3b5116a5ea2fd",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268062826,
+        "stop" : 1694268068256,
+        "duration" : 5430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "authMainButtonTest",
+      "uid" : "6665e3b0608f962b",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268068359,
+        "stop" : 1694268072749,
+        "duration" : 4390
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "authTest",
+      "uid" : "6b1b232c257fdde4",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268072754,
+        "stop" : 1694268076892,
+        "duration" : 4138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "authRegistrationFormButtonTest",
+      "uid" : "d691fc5f6a52d077",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268076895,
+        "stop" : 1694268080860,
+        "duration" : 3965
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "fillingTabTest",
+      "uid" : "44095dff15e05b70",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268080864,
+        "stop" : 1694268083808,
+        "duration" : 2944
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "bunTabTest",
+      "uid" : "9ef1740750c2a9a1",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268083811,
+        "stop" : 1694268086730,
+        "duration" : 2919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "souseTabTest",
+      "uid" : "b4f64411c09e7ec5",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268086733,
+        "stop" : 1694268089644,
+        "duration" : 2911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "constructorTest",
+      "uid" : "20f1c975e013f8e5",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268089648,
+        "stop" : 1694268094094,
+        "duration" : 4446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logoutTest",
+      "uid" : "ba1121286fd87633",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268094097,
+        "stop" : 1694268098885,
+        "duration" : 4788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logoTest",
+      "uid" : "aabf26f28be30765",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268098888,
+        "stop" : 1694268103166,
+        "duration" : 4278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrationTest",
+      "uid" : "647f9fac7580467",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268103226,
+        "stop" : 1694268107222,
+        "duration" : 3996
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrationIncorrectPassTest",
+      "uid" : "eea9793552752913",
+      "parentUid" : "25646c1b5bf7d2bc044b84fe49ad213d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694268107225,
+        "stop" : 1694268110665,
+        "duration" : 3440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.practicum.tests"
+  } ]
+}
